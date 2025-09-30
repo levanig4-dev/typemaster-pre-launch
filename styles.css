@@ -257,7 +257,7 @@ main {
 }
   /* desktop */
 
-@media only screen and (min-width: 65rem) {
+@media only screen and (min-width: 83rem) {
     .keyboards-section {
         flex-direction: row;
         align-items: center;
@@ -273,10 +273,21 @@ main {
        width: 44rem;
         
     }
-
+    .hero-img {
+    
+        border-radius: 15px;
+    }
+    .hero-section {
+        gap: 20rem;
+    }
+    
     .pre-order-btn {
         color: #ffff;
-        background-color: #162542;}
+        background-color: #162542;
+        margin-top: 5.5rem;
+        margin-right: 16.5rem;
+    }
+        
 
         .featurs-section {
          display: flex;
